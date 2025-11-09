@@ -1,0 +1,93 @@
+Software Development Life Cycle (SDLC) – Step-by-Step
+The SDLC is a structured process to develop high-quality software in a systematic, efficient, and predictable way.
+
+1. Requirement Gathering & Analysis
+Goal: Understand what the software should do.
+
+Meet with stakeholders (clients, users, business teams).
+
+Collect requirements through interviews, documents, or workshops.
+
+Identify what features the system needs (functional) and how it should behave (non-functional).
+
+Output: Requirement documents (BRD, SRS)
+
+🛠 Developer's Role: Review requirements for clarity, ask questions, check technical feasibility.
+
+2. Planning
+Goal: Plan how to build the project.
+
+Define project scope, timeline, cost, resources.
+
+Decide on tools, tech stack (e.g., Java, Spring Boot, MySQL).
+
+Risk analysis and mitigation planning.
+
+🛠 Developer's Role: Estimate tasks, suggest frameworks/tools, plan sprints (if Agile).
+
+3. Design
+Goal: Create the blueprint for the application.
+
+High-Level Design (HLD): System architecture, technologies, modules.
+
+Low-Level Design (LLD): Class diagrams, database design, API contracts.
+
+UI/UX design is also finalized.
+
+🛠 Developer's Role: Design classes, REST APIs, select design patterns (e.g., Singleton, Factory).
+
+4. Development (Implementation)
+Goal: Build the actual application.
+
+Start coding based on design.
+
+Backend (Java code, business logic), frontend, database integration.
+
+Follow coding standards and write unit tests.
+
+🛠 Developer's Role: Write code, integrate modules, use tools like Git, Maven, JUnit.
+
+5. Testing
+Goal: Ensure the application is bug-free and meets requirements.
+
+Types of testing:
+
+Unit Testing
+
+Integration Testing
+
+System Testing
+
+User Acceptance Testing (UAT)
+
+Manual + Automated testing.
+
+🛠 Developer's Role: Fix bugs found by QA, write test cases, support testing tools (Mockito, Selenium).
+
+6. Deployment
+Goal: Release the application to real users.
+
+Deploy to staging first → then production.
+
+Use CI/CD pipelines (Jenkins, GitHub Actions, Docker, Kubernetes).
+
+Monitor deployment success.
+
+🛠 Developer's Role: Package app (JAR/WAR), configure environments, deploy and verify logs.
+
+7. Maintenance & Support
+Goal: Keep the application running smoothly post-release.
+
+Fix bugs reported by users.
+
+Add enhancements and new features.
+
+Monitor performance, apply patches.
+
+🛠 Developer's Role: Debug issues, optimize code, update libraries (e.g., Spring Boot versions).
+
+🔄 Bonus: Agile/DevOps Approach
+Agile: SDLC is done in cycles (sprints). You deliver features iteratively.
+
+DevOps: Focuses on automation and collaboration between dev and ops teams for faster releases.
+
